@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=0" name="viewport">
+    <title>精品唐诗宋词-红领巾瓜报911</title>
+    <meta name="keywords" content="精品唐诗宋词">
+    <meta name="description" content="精品唐诗宋词">
+    <!--link rel="shortcut icon" href="favicon.ico"-->
+    <style type="text/css">
+      *{padding:0;margin:0}
+      body{background-color:#00c250;color:#fff;font-family:-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif}
+      #main{margin:10px auto;display:flex;justify-content:center;flex-direction:column;align-items:center}
+      .field{width:500px;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#fff;color:#6c757d;font-size:16px;padding:15px;margin:5px auto;border-radius:6px}
+      .field.foot {font-size:14px;}
+      .field.desc ul>li{text-align:left;font-size:14px}
+      @media (max-width:500px){#main{padding:0 5px}
+      .field{width:100%;padding:15px 0}
+      .field.desc ul{margin:0 15px}
+      .field.desc ul>li{text-align:left}
+      }
+      ul>li{margin-bottom:10px;list-style-type:none;text-align:center}
+      ul>li.text{font-size:12px;clear:both;width:100%}
+      .field .title{margin-bottom:15px;font-weight:700;color:#343a40}
+      a,a:active,a:focus,a:hover,a:visited{color:inherit;text-decoration:none}
+      .brand{display:flex;align-items:center;justify-content:flex-start;text-align:center;color:#000;font-size:30px;font-weight:200;padding:20px;cursor:pointer}
+      .brand span{color:#fff;font-weight:600}
+      .brand span.flag{color:#00c250;background:#fff;border-radius:6px;font-size:20px;font-weight:700;display:inline-block;padding:0 5px;margin-left:5px}
+      .enter-maomi{width:75%;text-align:center;line-height:40px;border:1px solid #00c250;border-radius:4px;margin-bottom:20px;margin-top:10px}
+      .enter-icon{width:32px;height:41px;float:left;margin-right:5px;background-color:#00c250}
+      .enter-ping{width:80px;height:41px;float:right;background-color:#00c250}
+      .enter-link a{display:block}
+      .icon{width:20px;height:20px;background-position:center;background-size:contain;background-repeat:no-repeat;display:inline-block}
+      .icon_hand{width:27px;height:27px;vertical-align:middle;background-image:url(data:image/png;base64,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);padding-top:12px}
+      .c_black{color:#333;line-height:30px;font-size:12px}
+      .c_blue{color:#00c250}
+      .c_link{font-size:14px;line-height:30px}
+      .fri_link{overflow:hidden;width:80%}
+      .fri_link li{float:left;display:block;font-size:.875rem;width:33.33333333%}
+      .icon_ios_shared{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAuGAAALhgBKqonIAAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAAAHsSURBVGiB7ZvLasJAFEBvnsYXhFoKXaRLi/QHWrppl/2mrvtL3dZlf0AElxXsRiVgo+bdTVJEUmUmyYTc3ANCTGbuneMMmTEPKY5jaBJy1Q0QTeOEVZbCN6+z3Akt05A3bjhVZGmxcrznvPG+3oZM5YX2cCpr7/zhyvGeBl39Q2R+AIHClmmoqWy678cNHi3TYBpleREinMhODmUBANwg0jZuOLFMQ9gPX3qiLNmWKvvptr3zhxs3nIqSLjVJlqzZ1mZXPb1ntrW/M6BI6dIS/Cfbbymjub33+i3lrgrpUoKfkY0AAOb2PqhCuvDAydRzUjYlS1qRpcVxuSIpXHhu7yNFlr7T7xmy8cEnlR6ZbW026OrjIhYjpyhlDkwWFeMwiq+zevaY5PhtGW05prRJf+V4TwAA9s4/U1IsjfvzQMLYIWHskDB2WOdhlkucEmNsITlq3cMdXXFY69RaeOuFHdY63EvLi472eer4esu3pDwXN4l9zxUccgivt/4Db90C4nLfLqn1kOaBhLFDwtghYeyQMHZIGDskjB0Sxg4JY4eEsSP0obAE3uvVhdC4HiZh7JAwdhonzD0tXXb19yIbwsLS8bjrcgsvHe+FO2uFMA3plir7h8861xGmHnaDSE82a/uyk0QvaiGnccK/XaTidYL+GAMAAAAASUVORK5CYII=)}
+      .icon_android_share{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAuGAAALhgBKqonIAAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAAAFYSURBVGiB7doxSgNBFMbxt5PZrGFWCMHCgAg2Fp7CUj1DbmBhZ2Ntk87CC3gIsfQWgo0gFoJRAm4YN7uZsTDKGtLOG3j7/cpt3v4TAl+RxHtPbaJivwA3BEuHYOkQLB2CpUOwdAiWrnXBmuPI7sUjDY0Zfc7nV0VVDbRSvp9ldxNrT54v9zle4Q/LN7yT53tv1t4UVTUgIqqdSybWHm/1ercc95tYgr8Wi+vauWT1+bQsjzjuN0X9Da/7EEJjCdZK3a97nqfpB8f9Jpbg19ls3M+yh+YzrZTf7HbPOO7/u8t1aFqWB9vGnNfOHRIRbXQ6py9F8cR1/xdbMNHPN01EY86bq1o3PBAsHYJDGRozytP0nYi8VsrFmJVE2NJhYEsvYUszwJYOBVs6EgwP6RAsHbZ0CNjSS9jSDLClQ8CWpnhbOsG/aYVDsHQIlg7B0iFYOgRLh2DpvgEr5a2EBqrivQAAAABJRU5ErkJggg==)}
+      .text-white{color: #fff;}
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div class="brand" id="logo">
+        <span>精品唐诗宋词</span><span class="flag">红领巾瓜报911</span>
+      </div>
+      <div class="field">
+        <div class="enter-maomi">
+          <div class="enter-icon">
+            <div class="icon icon_hand"></div>
+          </div>
+          <div class="enter-ping">
+            <span class="text-white">0 ms</span>
+          </div>
+          <div class="enter-link">
+            <a href="http://38.181.25.130/url.html" target="_blank"><span class="c_blue">官网入口一</span> </a>
+          </div>
+        </div>
+        <div class="enter-maomi">
+          <div class="enter-icon">
+            <div class="icon icon_hand"></div>
+          </div>
+          <div class="enter-ping">
+            <span class="text-white">0 ms</span>
+          </div>
+          <div class="enter-link">
+            <a href="http://38.181.25.130/dm.html" target="_blank"><span class="c_blue">动漫入口一</span> </a>
+          </div>
+        </div>
+        <p class="c_blue c_link">请多多访问支持</p>
+      </div>
+
+      <div class="field desc">
+        <h4 class="title">✐ 为您找到以下结果</h4>
+        <ul>
+         
+		            <p class="c_black">唐诗宋词,正在为您加速,您稍后!###2024年6月30日处女 儿草亲妈！. 12点成年 杰伦包养 真实囚禁 日僵尸女 女道长 抠穴圣手 处女 草尸体 百女大战 真实囚禁 强奸孕妇 处女 强行草女儿 杰伦包养 无毛合集 儿草亲妈！. 捉奸现场 入肉双马尾 无毛合集 捉奸现场 萝莉精选 包射 祖孙女乱伦 抠穴圣手 强行草女儿 草 ...###2024年6月26日备-用-地-址①：www.yaojidh57.cc 备-用-地-址②：www.yaojidh56.cc 域名和諧較快,頁面如未正常打開,請手动點擊備用地址！###唐诗三百 古诗三百 宋词三百 小学古诗 初中古诗 高中古诗 小学文言 初中文言 高中文言 宋词 精选 古诗十九 诗经 楚辞 乐府 写景 咏物 春天 夏天 秋天 冬天 写雨 写雪 写风 写花 梅花 荷花 菊花 柳树 月亮 山水 写山 写水 长江 黄河 儿童 写鸟 写马 田园 ...###2024年4月13日展开. 宋词三百首 (共300首) 1.《 水调歌头&#183;明月几时有 》 宋朝 &#183; 苏轼 丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。 （序）明月几时有？ 把酒问青天。 不知天上宫阙，今夕是何年。 我欲乘风归去，又恐琼楼玉宇⑺，高处不胜寒。 起舞弄清影，何似在... 2.《 声声慢&#183;寻寻觅觅 》 宋朝 &#183; 李清照 寻寻觅觅，冷冷清清，凄凄惨惨戚戚。 乍暖还寒 …###2018年6月26日宋词是中国古代汉族文学皇冠上光辉夺目的明珠，在古代汉族文学的阆苑里，她是一座芬芳绚丽的园圃。. 她以姹紫嫣红、千姿百态的神韵，与唐诗争奇，与元曲斗艳，历来与唐诗并称双绝，都代表一代文学之盛。. 苏轼. 苏轼是宋代文学最高成就的代表，并在 …###2024年7月1日宋词精选栏目收录了包括：洞仙歌、摸鱼儿、汉宫春、菩萨蛮、念奴娇、水调歌头、水龙吟、临江仙、满江红、酹江月、朝中措、浣溪沙、梦玉人引、南柯子等宋词精选赏析。.###在这门课程中，我们将介绍唐诗宋词的文体特点，分析有代表性的经典作品，通过作品将唐诗、宋词的发展串联起来。 基本的思路是，以经典作品为核心，多角度理解经典之美；而以诗歌史为辅助，形成诗歌发展的基本体认。###2024年7月3日唐诗宋词网(www.tangshisongci.net)收录了常见的唐诗宋词元曲等古诗词名句，归类整理了比较优秀的唐诗宋词精选，元曲名篇，诸如《唐诗三百首》、《古诗十九首》、《宋词三百首》。###2020年12月15日古诗学习网专注于古诗文赏析，精选唐诗、宋词、元曲、三百首全集、古诗词300首鉴赏大全。 致力于让古诗爱好者更便捷地发表及获取古诗文相关资料。</p>
+
+      </div>
+	  
+黑料不打详红领巾
+今日看料在线观看
+今日看料每日一抓
+唐诗宋词导航在线入口官网
+
+	  
+      <div class="field foot">
+        <p>台ICP备15340865号-1</p>
+        <p><a href="http://38.181.25.130/url.html" rel="nofollow" target="_blank">Copyright © 2023-2024 精品唐诗宋词</a></p>
+        
+      </div>
+    </div>
+<script language="javascript">
+      var tim = 1;
+      setInterval("tim++",100);
+      obj = document.querySelectorAll('.enter-link a');
+      sbj = document.querySelectorAll('.enter-ping span');
+      for(var i = 0;i < obj.length; i++){
+        var pobj = document.querySelector('.field');
+        var img = document.createElement('img');
+        img.setAttribute('src', obj[i].href + '/' + Math.random());
+        img.setAttribute('onerror', 'uomg("' + i + '")');
+        img.setAttribute('style', 'display:none');
+        pobj.appendChild(img);
+      }
+      function uomg(index){
+        console.log(sbj[index]);
+        sbj[index].innerText = tim * 10 + 'ms';
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=0" name="viewport">
+    <title>刘亦菲黑料-红领巾瓜报网站</title>
+    <meta name="keywords" content="刘亦菲黑料">
+    <meta name="description" content="刘亦菲黑料">
+    <!--link rel="shortcut icon" href="favicon.ico"-->
+    <style type="text/css">
+      *{padding:0;margin:0}
+      body{background-color:#00c250;color:#fff;font-family:-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif}
+      #main{margin:10px auto;display:flex;justify-content:center;flex-direction:column;align-items:center}
+      .field{width:500px;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#fff;color:#6c757d;font-size:16px;padding:15px;margin:5px auto;border-radius:6px}
+      .field.foot {font-size:14px;}
+      .field.desc ul>li{text-align:left;font-size:14px}
+      @media (max-width:500px){#main{padding:0 5px}
+      .field{width:100%;padding:15px 0}
+      .field.desc ul{margin:0 15px}
+      .field.desc ul>li{text-align:left}
+      }
+      ul>li{margin-bottom:10px;list-style-type:none;text-align:center}
+      ul>li.text{font-size:12px;clear:both;width:100%}
+      .field .title{margin-bottom:15px;font-weight:700;color:#343a40}
+      a,a:active,a:focus,a:hover,a:visited{color:inherit;text-decoration:none}
+      .brand{display:flex;align-items:center;justify-content:flex-start;text-align:center;color:#000;font-size:30px;font-weight:200;padding:20px;cursor:pointer}
+      .brand span{color:#fff;font-weight:600}
+      .brand span.flag{color:#00c250;background:#fff;border-radius:6px;font-size:20px;font-weight:700;display:inline-block;padding:0 5px;margin-left:5px}
+      .enter-maomi{width:75%;text-align:center;line-height:40px;border:1px solid #00c250;border-radius:4px;margin-bottom:20px;margin-top:10px}
+      .enter-icon{width:32px;height:41px;float:left;margin-right:5px;background-color:#00c250}
+      .enter-ping{width:80px;height:41px;float:right;background-color:#00c250}
+      .enter-link a{display:block}
+      .icon{width:20px;height:20px;background-position:center;background-size:contain;background-repeat:no-repeat;display:inline-block}
+      .icon_hand{width:27px;height:27px;vertical-align:middle;background-image:url(data:image/png;base64,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);padding-top:12px}
+      .c_black{color:#333;line-height:30px;font-size:12px}
+      .c_blue{color:#00c250}
+      .c_link{font-size:14px;line-height:30px}
+      .fri_link{overflow:hidden;width:80%}
+      .fri_link li{float:left;display:block;font-size:.875rem;width:33.33333333%}
+      .icon_ios_shared{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAuGAAALhgBKqonIAAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAAAHsSURBVGiB7ZvLasJAFEBvnsYXhFoKXaRLi/QHWrppl/2mrvtL3dZlf0AElxXsRiVgo+bdTVJEUmUmyYTc3ANCTGbuneMMmTEPKY5jaBJy1Q0QTeOEVZbCN6+z3Akt05A3bjhVZGmxcrznvPG+3oZM5YX2cCpr7/zhyvGeBl39Q2R+AIHClmmoqWy678cNHi3TYBpleREinMhODmUBANwg0jZuOLFMQ9gPX3qiLNmWKvvptr3zhxs3nIqSLjVJlqzZ1mZXPb1ntrW/M6BI6dIS/Cfbbymjub33+i3lrgrpUoKfkY0AAOb2PqhCuvDAydRzUjYlS1qRpcVxuSIpXHhu7yNFlr7T7xmy8cEnlR6ZbW026OrjIhYjpyhlDkwWFeMwiq+zevaY5PhtGW05prRJf+V4TwAA9s4/U1IsjfvzQMLYIWHskDB2WOdhlkucEmNsITlq3cMdXXFY69RaeOuFHdY63EvLi472eer4esu3pDwXN4l9zxUccgivt/4Db90C4nLfLqn1kOaBhLFDwtghYeyQMHZIGDskjB0Sxg4JY4eEsSP0obAE3uvVhdC4HiZh7JAwdhonzD0tXXb19yIbwsLS8bjrcgsvHe+FO2uFMA3plir7h8861xGmHnaDSE82a/uyk0QvaiGnccK/XaTidYL+GAMAAAAASUVORK5CYII=)}
+      .icon_android_share{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAuGAAALhgBKqonIAAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAAAFYSURBVGiB7doxSgNBFMbxt5PZrGFWCMHCgAg2Fp7CUj1DbmBhZ2Ntk87CC3gIsfQWgo0gFoJRAm4YN7uZsTDKGtLOG3j7/cpt3v4TAl+RxHtPbaJivwA3BEuHYOkQLB2CpUOwdAiWrnXBmuPI7sUjDY0Zfc7nV0VVDbRSvp9ldxNrT54v9zle4Q/LN7yT53tv1t4UVTUgIqqdSybWHm/1ercc95tYgr8Wi+vauWT1+bQsjzjuN0X9Da/7EEJjCdZK3a97nqfpB8f9Jpbg19ls3M+yh+YzrZTf7HbPOO7/u8t1aFqWB9vGnNfOHRIRbXQ6py9F8cR1/xdbMNHPN01EY86bq1o3PBAsHYJDGRozytP0nYi8VsrFmJVE2NJhYEsvYUszwJYOBVs6EgwP6RAsHbZ0CNjSS9jSDLClQ8CWpnhbOsG/aYVDsHQIlg7B0iFYOgRLh2DpvgEr5a2EBqrivQAAAABJRU5ErkJggg==)}
+      .text-white{color: #fff;}
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div class="brand" id="logo">
+        <span>刘亦菲黑料</span><span class="flag">红领巾瓜报网站</span>
+      </div>
+      <div class="field">
+        <div class="enter-maomi">
+          <div class="enter-icon">
+            <div class="icon icon_hand"></div>
+          </div>
+          <div class="enter-ping">
+            <span class="text-white">0 ms</span>
+          </div>
+          <div class="enter-link">
+            <a href="http://38.181.25.130/url.html" target="_blank"><span class="c_blue">官网入口一</span> </a>
+          </div>
+        </div>
+        <div class="enter-maomi">
+          <div class="enter-icon">
+            <div class="icon icon_hand"></div>
+          </div>
+          <div class="enter-ping">
+            <span class="text-white">0 ms</span>
+          </div>
+          <div class="enter-link">
+            <a href="http://38.181.25.130/dm.html" target="_blank"><span class="c_blue">动漫入口一</span> </a>
+          </div>
+        </div>
+        <p class="c_blue c_link">请多多访问支持</p>
+      </div>
+
+      <div class="field desc">
+        <h4 class="title">✐ 为您找到以下结果</h4>
+        <ul>
+         
+		            <p class="c_black">2023年12月10日事实证明，35岁还“黑料不断”的刘亦菲，始终难逃“干爹”陈金飞. 少女时代，大荧幕塑造的她，冰清玉洁、性感妩媚；随着时间的流逝，观众们期待着她的演技可以呈现更多的色彩，但她似乎并未完全满足这些期望。. 一路从15岁起步，凭着数个铭记于心的 ...###2023年5月10日情史混乱、演技差、靠干爹上位，刘亦菲的黑料究竟是真是假？. “神仙姐姐”这次又上热搜了。. 不过，不是因为美貌和电视剧，而是因为她曾经是校园霸凌的受害者。. 即使是讲述年少时痛苦的过往，刘亦菲依然是那副温柔的样子，虽然外表柔弱，但 ...###2024年6月10日粉丝虽然对外辩称是索尼唱片为刘亦菲举办的生日宴，但是看这当年刘亦菲和索尼之间的关系，显然双方没有好到这种地步。. 刘亦菲黑历史又被挖出，与干爹陈金飞关系被实锤，曾做眯眯眼动作. 而之所以爆出这样的瓜，最主要还是因为刘亦菲团队这段时间炒 …###2024年6月16日导演酒局称刘亦菲“扬州瘦马”，黑料缠身，被杨采钰拍电影讽刺. 2002年，14岁的刘亦菲凭借电视剧《金粉世家》一炮而红。. 她的出道并不顺利，被指“空降”剧组引起了男主角陈坤的不满。. 陈坤与刘亦菲很少交流，而与女主角董洁的关系却非常好。. 这使得 ...###2024年6月12日刘亦菲与陈金飞的相识，可以追溯到1992年的一次饭局。当时，年仅5岁的刘亦菲（原名安风）因其出众的容貌和气质，吸引了陈金飞的注意。陈金飞在饭局上目不转睛地盯着刘亦菲看，并自言自语道：“如果我的女儿像她一样乖巧就好了。###由于此网站的设置，我们无法提供该页面的具体描述。###2021年12月8日2006年，刘亦菲19岁生日当天，一群直男为了表达内心汹涌的爱意，20多家黑客公司联手黑掉了亦菲仙居的首页十几分钟，送去了一首打油诗。 这是刘亦菲最火的那几年，也是她被黑得最惨的时候。###2020年3月10日刘亦菲：被黑料围攻13年的“慵懒主义战士”. 在《Ocean Drive》的拍摄现场，刘亦菲身穿木兰款红衣，疲惫地垂下眼睑，等待工作人员的下一个动作指示。. 因为近期自己主演的新作《花木兰》即将上映，长期不做推广和宣传的刘亦菲显得有些力不从心，过 ...###2023年8月30日“黑料”不断 聚焦在刘亦菲身上的目光多了，很多事情原本的含义就会被曲解。“核污水”事件后，中日关系日益紧张。大概刘亦菲都没能想到，在推波助澜之下，自己成为了“亲日派”。###2022年6月26日有人认为，是有刘亦菲的竞争对手把这些黑料放出来，目的就是为了影响《梦华录》的收视。 不过，要说《梦华录》口碑崩坏，绝对不只是这一个原因。</p>
+
+      </div>
+	  
+黑料热点事件 吃瓜 网曝
+妲己导航唐诗宋词
+三千佳丽唐诗宋词123
+红领巾瓜报官网
+
+	  
+      <div class="field foot">
+        <p>台ICP备15340865号-1</p>
+        <p><a href="http://38.181.25.130/url.html" rel="nofollow" target="_blank">Copyright © 2023-2024 刘亦菲黑料</a></p>
+        
+      </div>
+    </div>
+<script language="javascript">
+      var tim = 1;
+      setInterval("tim++",100);
+      obj = document.querySelectorAll('.enter-link a');
+      sbj = document.querySelectorAll('.enter-ping span');
+      for(var i = 0;i < obj.length; i++){
+        var pobj = document.querySelector('.field');
+        var img = document.createElement('img');
+        img.setAttribute('src', obj[i].href + '/' + Math.random());
+        img.setAttribute('onerror', 'uomg("' + i + '")');
+        img.setAttribute('style', 'display:none');
+        pobj.appendChild(img);
+      }
+      function uomg(index){
+        console.log(sbj[index]);
+        sbj[index].innerText = tim * 10 + 'ms';
+      }
+    </script>
+  </body>
+</html>
